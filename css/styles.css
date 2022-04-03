@@ -1,4 +1,6 @@
-.page-header {
+.page-header { background-color: #ffffff;
+  width: 1600;
+  height: 80;
 }
 /* WebStudio */
 .logo {
@@ -40,3 +42,7 @@ ul {
   font-family: Roboto;
   color: #ffffff;
 }
+.footter{
+  background-color: black;
+}
+
