@@ -1,9 +1,15 @@
+.page-body{
+  font-family: Roboto ;
+  color: black
+}
 .page-header { background-color: #ffffff;
   width: 1600;
   height: 80;
 }
 /* WebStudio */
 .logo {
+font-family: raleway;
+font-weight: 700;
 }
 .bluetext {
   color: #2196f3;
@@ -17,14 +23,17 @@
   font-weight: 500;
   color: #212121;
 }
+.site-nav:hover{
+  color: tomato;
+}
 .site-nav a {
 }
-.contacts {
+.contacts:hover {
+  color: tomato;
 }
 .contacts > mailto {
   font-family: Roboto;
   font-weight: 500;
-
   color: #2196f3;
 }
 .contacts > tel {
@@ -33,16 +42,16 @@
   font-weight: 500;
   color: #757575;
 }
-ul {
-  list-style: none;
-}
 
 .filters {
   font-weight: 500;
   font-family: Roboto;
   color: #ffffff;
 }
-.footter{
-  background-color: black;
+.page-footer{
+  background-color: rgb(15, 18, 56);
 }
-
+.text-address{
+  background-color: rgb(15, 18, 56);
+  color: #ffffff;
+}
