@@ -28,7 +28,8 @@ font-weight: 700;
 }
 .site-nav a {
 }
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: tomato;
 }
 .contacts > mailto {
