@@ -24,13 +24,13 @@ font-weight: 700;
   color: #212121;
 }
 .site-nav:hover{
-  color: tomato;
+  color: #2196F3;
 }
 .site-nav a {
 }
 .contacts:hover,
 .contacts:focus {
-  color: tomato;
+  color: #2196F3;
 }
 .contacts > mailto {
   font-family: Roboto;
