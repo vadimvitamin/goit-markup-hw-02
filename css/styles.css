@@ -44,6 +44,13 @@ font-weight: 700;
   color: #757575;
 }
 
+.specifics {
+  color: #212121;
+  font-weight: 700;
+  font-family: roboto;
+  font-size: 14px;
+  line-height: 16px ;
+}
 .filters {
   font-weight: 500;
   font-family: Roboto;
