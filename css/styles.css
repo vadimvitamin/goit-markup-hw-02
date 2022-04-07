@@ -1,15 +1,17 @@
 .page-body{
   font-family: Roboto ;
-  color: black
+  color: #212121;
 }
-.page-header { background-color: #ffffff;
-  width: 1600;
-  height: 80;
+.page-header {
+background-color: #ffffff;
 }
 /* WebStudio */
 .logo {
 font-family: raleway;
 font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: #2196F3;
 }
 .bluetext {
   color: #2196f3;
@@ -20,36 +22,73 @@ font-weight: 700;
 /* site-navigation */
 .site-nav {
   font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
   color: #212121;
 }
-.site-nav:hover{
-  color: #2196F3;
+.site-nav:hover,
+.site-nav:focus {
+color: #2196F3;
 }
-.site-nav a {
+
+.contacts{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
 }
 .contacts:hover,
 .contacts:focus {
   color: #2196F3;
 }
-.contacts > mailto {
-  font-family: Roboto;
-  font-weight: 500;
-  color: #2196f3;
+.cap{
+  background-color: #2F303A;
 }
-.contacts > tel {
-  position: absolute;
-  font-family: Roboto;
-  font-weight: 500;
+.title{
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.buttons{
+  background-color: #2196F3;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.specifics-title{
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.specifics {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   color: #757575;
 }
-
-.specifics {
-  color: #212121;
-  font-weight: 700;
+.work-title{
   font-family: roboto;
-  font-size: 14px;
-  line-height: 16px ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
 }
 .filters {
   font-weight: 500;
@@ -58,8 +97,10 @@ font-weight: 700;
 }
 .page-footer{
   background-color: rgb(15, 18, 56);
+  color: #ffffff;
 }
 .text-address{
   background-color: rgb(15, 18, 56);
   color: #ffffff;
 }
+
