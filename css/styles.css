@@ -7,10 +7,10 @@
 
 .page-body{
   font-family: Roboto ;
-  color: #212121;
+  color: var(--first-text-color);
 }
 .page-header {
-background-color: #ffffff;
+background-color: var(--white-text-color);
 }
 /* WebStudio */
 .logo {
@@ -18,16 +18,16 @@ font-family: raleway;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-color: #2196f3;
+color: var(--blue-text-color);
 }
 .bluetext {
-  color: #2196f3;
+  color: var(--blue-text-color);
 }
 .blacktext {
-  color: #212121;
+  color: var(--first-text-color);
 }
 .whitetext{
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 /* site-navigation */
 .site-nav {
@@ -36,11 +36,11 @@ color: #2196f3;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #212121;
+  color: var(--first-text-color);
 }
 .site-nav:hover,
 .site-nav:focus {
-color: #2196f3;
+color: var(--blue-text-color);
 }
 
 .contacts{
@@ -49,30 +49,31 @@ color: #2196f3;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
-.contacts:hover,
-.contacts:focus {
-  color: #2196f3;
+.contacts:hover {
+color: var(--blue-text-color);
+}
 .cap {
   background-color: #2F303A;
 }
+
 .title{
   font-family: roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 .buttons{
-  background-color: #2196f3;
+  background-color: var(--blue-text-color);
   font-family: roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--white-text-color);
   cursor:pointer
 }
 .specifics-title{
@@ -81,13 +82,13 @@ color: #2196f3;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  color: #212121;
+  color: var(--first-text-color);
 }
 .specifics {
   font-family: roboto;
   font-size: 14px;
   line-height: 24px;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .work-title{
   font-family: roboto;
@@ -96,19 +97,19 @@ color: #2196f3;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  color: #212121;
+  color: var(--first-text-color);
 }
 .filters {
   font-weight: 500;
   font-family: Roboto;
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 .page-footer{
   background-color: rgb(15, 18, 56);
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 .text-address{
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 .text-email{
   color: rgba(255, 255, 255, 0.6)
