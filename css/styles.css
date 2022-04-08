@@ -17,7 +17,7 @@ background-color: var(--white-text-color);
 font-family: raleway;
 font-weight: 700;
 font-size: 26px;
-line-height: 1.2em;
+line-height: 1.19em;
 color: var(--blue-text-color);
 }
 .bluetext {
@@ -48,7 +48,7 @@ color: var(--blue-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2em;
+  line-height: 1.14em;
   color: var(--secondary-text-color);
 }
 .contacts:hover {
@@ -63,7 +63,7 @@ color: var(--blue-text-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4em;
+  line-height: 1.36em;
   color: var(--white-text-color);
 }
 .buttons{
@@ -72,7 +72,7 @@ color: var(--blue-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.2em;
+  line-height: 1.87em;
   color: var(--white-text-color);
   cursor:pointer
 }
@@ -81,13 +81,13 @@ color: var(--blue-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.4em;
+  line-height: 1.14em;
   color: var(--first-text-color);
 }
 .specifics {
   font-family: roboto;
   font-size: 14px;
-  line-height: 1.2em;
+  line-height: 1.71em;
   color: var(--secondary-text-color);
 }
 .work-title{
@@ -95,9 +95,25 @@ color: var(--blue-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.4em;
+  line-height: 1.16em;
   text-align: center;
   color: var(--first-text-color);
+}
+.specifics-title-team {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  color: var(--first-text-color);
+}
+.specifics-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18em;
+  color: #757575;
 }
 .filters {
   font-weight: 500;
