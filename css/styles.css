@@ -58,7 +58,7 @@ color: var(--blue-text-color);
   background-color: #2F303A;
 }
 
-.title{
+.title {
   font-family: roboto;
   font-style: normal;
   font-weight: 900;
@@ -75,6 +75,11 @@ color: var(--blue-text-color);
   line-height: 1.87em;
   color: var(--white-text-color);
   cursor:pointer
+}
+.buttons:hover {
+  background-color: #150c9b;
+}
+
 }
 .specifics-title{
   font-family: roboto;
