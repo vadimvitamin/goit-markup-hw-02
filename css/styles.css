@@ -116,9 +116,9 @@ color: var(--blue-text-color);
   color: #757575;
 }
 .filters {
+  color: #212121;
   font-weight: 500;
   font-family: Roboto;
-  color: var(--white-text-color);
 }
 .page-footer{
   background-color: rgb(15, 18, 56);
