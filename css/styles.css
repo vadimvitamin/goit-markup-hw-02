@@ -34,26 +34,19 @@ color: var(--blue-text-color);
   color: var(--white-text-color);
 }
 /* site-navigation */
-.site-nav {
+.site-nav{
 }
-.site-nav {
-
-}
-.site-nav{}
 .header-list {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121
+  color: var(--first-text-color);
 }
 .header-list:hover, 
 .header-list:focus {
  color: #2196f3;
-}
-.header-list:focus {
-  color: #2196f3;
 }
 .list {
   list-style: none;
