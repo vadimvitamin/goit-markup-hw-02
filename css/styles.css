@@ -146,13 +146,10 @@ color: var(--blue-text-color);
   letter-spacing: 0.03em
   font-family: 'Roboto';
 }
-.filters :hover {
+.filters :hover,
+.filters :focus {
 background-color: #2196f3;
 color: #ffffff;
-}
-.filters :focus {
-  background-color: #2196f3;
-  color: #ffffff;
 }
 .page-footer{
   background-color: rgb(15, 18, 56);
