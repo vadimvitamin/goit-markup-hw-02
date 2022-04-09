@@ -12,7 +12,8 @@
   color: var(--first-text-color);
 }
 .page-header {
-background-color: var(--white-text-color);
+  font-style: normal;
+  background-color: var(--white-text-color);
 }
 /* WebStudio */
 .logo {
@@ -39,7 +40,9 @@ color: var(--blue-text-color);
   line-height: 1.2;
   color: var(--first-text-color);
 }
-.site-nav:hover,
+.site-nav:hover {
+color: var(--blue-text-color);
+}
 .site-nav:focus {
 color: var(--blue-text-color);
 }
@@ -51,8 +54,11 @@ color: var(--blue-text-color);
   letter-spacing: 0.02em;
   color: #212121
 }
-.header-list {
+.header-list:hover {
 color: #2196f3;
+}
+.header-list:focus {
+  color: #2196f3;
 }
 .list {
   list-style: none;
@@ -72,7 +78,7 @@ color: var(--blue-text-color);
 }
 
 .title {
-  font-family: 'roboto';
+  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -81,7 +87,7 @@ color: var(--blue-text-color);
 }
 .buttons{
   background-color: var(--blue-text-color);
-  font-family: 'roboto';
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -97,7 +103,7 @@ color: var(--blue-text-color);
 }
 
 .specifics-title{
-  font-family: 'roboto';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -105,13 +111,13 @@ color: var(--blue-text-color);
   color: var(--first-text-color);
 }
 .specifics {
-  font-family: 'roboto';
+  font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 .work-title{
-  font-family: 'roboto';
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -119,7 +125,7 @@ color: var(--blue-text-color);
   color: var(--first-text-color);
 }
 .specifics-title-team {
-  font-family: 'roboto';
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -135,18 +141,32 @@ color: var(--blue-text-color);
 .filters {
   color: #212121;
   font-weight: 500;
+  text-align: center;
+  line-height: 1.62;
+  letter-spacing: 0.03em
   font-family: 'Roboto';
+}
+.filters :hover {
+background-color: #2196f3;
+color: #ffffff;
+}
+.filters :focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .page-footer{
   background-color: rgb(15, 18, 56);
   color: var(--white-text-color);
 }
 .text-address{
+  font-style: normal;
   color: var(--white-text-color);
 }
 .text-email{
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6)
 }
 .text-telephone{
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6)
 }
