@@ -21,6 +21,7 @@ font-family: 'raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19em;
+letter-spacing: 0.03em;
 color: var(--blue-text-color);
 }
 .bluetext {
@@ -34,18 +35,11 @@ color: var(--blue-text-color);
 }
 /* site-navigation */
 .site-nav {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  color: var(--first-text-color);
 }
-.site-nav:hover {
-color: var(--blue-text-color);
+.site-nav {
+
 }
-.site-nav:focus {
-color: var(--blue-text-color);
-}
+.site-nav{}
 .header-list {
   font-family: 'Roboto';
   font-weight: 500;
@@ -54,8 +48,9 @@ color: var(--blue-text-color);
   letter-spacing: 0.02em;
   color: #212121
 }
-.header-list:hover {
-color: #2196f3;
+.header-list:hover, 
+.header-list:focus {
+ color: #2196f3;
 }
 .header-list:focus {
   color: #2196f3;
@@ -68,6 +63,7 @@ color: #2196f3;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 .contacts:hover {
@@ -83,6 +79,8 @@ color: var(--blue-text-color);
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--white-text-color);
 }
 .buttons{
@@ -99,7 +97,7 @@ color: var(--blue-text-color);
 
 }
 .buttons:hover {
-  background-color: #150c9b;
+  background-color: #1b1480;
 }
 
 .specifics-title{
@@ -108,12 +106,16 @@ color: var(--blue-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--first-text-color);
 }
 .specifics {
   font-family: 'Roboto';
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .work-title{
@@ -122,6 +124,7 @@ color: var(--blue-text-color);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--first-text-color);
 }
 .specifics-title-team {
@@ -129,6 +132,7 @@ color: var(--blue-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
 .specifics-team {
@@ -136,6 +140,7 @@ color: var(--blue-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 .filters {
