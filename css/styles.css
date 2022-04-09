@@ -118,6 +118,12 @@ color: var(--blue-text-color);
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+.work-list{
+
+}
+.workers {
+
+}
 .work-title{
   font-family: 'Roboto';
   font-weight: 700;
@@ -143,6 +149,9 @@ color: var(--blue-text-color);
   letter-spacing: 0.03em;
   color: #757575;
 }
+.filters-button {
+
+}
 .filters {
   color: #212121;
   font-weight: 500;
@@ -155,6 +164,9 @@ color: var(--blue-text-color);
 .filters :focus {
 background-color: #2196f3;
 color: #ffffff;
+}
+.specifics-progects {
+  
 }
 .page-footer{
   background-color: rgb(15, 18, 56);
