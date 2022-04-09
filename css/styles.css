@@ -4,7 +4,9 @@
 --white-text-color: #ffffff;
 --blue-text-color: #2196f3;
 }
+.page-main {
 
+}
 .page-body{
   font-family: Roboto ;
   color: var(--first-text-color);
