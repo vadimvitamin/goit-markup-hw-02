@@ -1,57 +1,73 @@
 :root {
---first-text-color: #212121;
---secondary-text-color: #757575;
---white-text-color: #ffffff;
---blue-text-color: #2196f3;
+  --first-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #ffffff;
+  --blue-text-color: #2196f3;
 }
-.page-main {
 
-}
-.page-body{
-  font-family: 'Roboto' ;
+.page-main {}
+
+.page-body {
+  font-family: "Roboto";
   color: var(--first-text-color);
 }
+
 .page-header {
   font-style: normal;
   background-color: var(--white-text-color);
 }
+
 /* WebStudio */
 .logo {
-font-family: 'raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19em;
-letter-spacing: 0.03em;
-color: var(--blue-text-color);
+  font-family: 'raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+  color: var(--blue-text-color);
 }
+
 .bluetext {
   color: var(--blue-text-color);
 }
 .blacktext {
   color: var(--first-text-color);
 }
-.whitetext{
+.whitetext {
   color: var(--white-text-color);
 }
+
 /* site-navigation */
-.site-nav{
+.site-nav {}
+
+.header-list {
 }
 .header-list {
+}
+.nav-list {
+}
+.header-link {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--first-text-color);
+  text-decoration: none;
 }
-.header-list:hover, 
-.header-list:focus {
- color: #2196f3;
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+.link {
+  text-decoration: none;
 }
 .list {
   list-style: none;
+  text-decoration: none;
 }
-.contacts{
+
+.contacts {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
@@ -59,9 +75,19 @@ color: var(--blue-text-color);
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.contacts:hover {
-color: var(--blue-text-color);
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
 }
+.text-email-header{
+}
+.text-email-header:hover,
+.text-email-header:focus {
+  color: #2196f3;
+
+}
+.text-telephone-header{}
+
 .cap {
   background-color: #2F303A;
 }
@@ -76,32 +102,33 @@ color: var(--blue-text-color);
   text-transform: uppercase;
   color: var(--white-text-color);
 }
-.buttons{
+
+.buttons {
   background-color: var(--blue-text-color);
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   color: var(--white-text-color);
-  cursor:pointer;
+  cursor: pointer;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 
 }
+
 .buttons:hover {
   background-color: #1b1480;
 }
 
-.specifics-title{
-  font-family: 'Roboto';
-  font-style: normal;
+.specifics-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-text-color);
+  list-style: none;
 }
 
 .specifics {
@@ -112,13 +139,12 @@ color: var(--blue-text-color);
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.work-list{
 
-}
-.workers {
+.work-list {}
 
-}
-.work-title{
+.workers {}
+
+.work-title {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
@@ -127,6 +153,7 @@ color: var(--blue-text-color);
   letter-spacing: 0.03em;
   color: var(--first-text-color);
 }
+
 .specifics-title-team {
   font-family: 'Roboto';
   font-weight: 500;
@@ -135,6 +162,7 @@ color: var(--blue-text-color);
   letter-spacing: 0.06em;
   color: var(--first-text-color);
 }
+
 .specifics-team {
   font-family: 'Roboto';
   font-weight: 400;
@@ -143,9 +171,9 @@ color: var(--blue-text-color);
   letter-spacing: 0.03em;
   color: #757575;
 }
-.filters-button {
 
-}
+.filters-button {}
+
 .filters {
   font-family: 'Roboto';
   color: #212121;
@@ -154,28 +182,31 @@ color: var(--blue-text-color);
   line-height: 1.62;
   letter-spacing: 0.03em
 }
+
 .filters :hover,
 .filters :focus {
-background-color: #2196f3;
-color: #ffffff;
-}
-.specifics-progects {
-
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
-.page-footer{
+.specifics-progects {}
+
+.page-footer {
   background-color: rgb(15, 18, 56);
   color: var(--white-text-color);
 }
-.text-address{
+
+.text-address {
   font-style: normal;
   color: var(--white-text-color);
 }
-.text-email{
+
+.text-email {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6)
 }
-.text-telephone{
+
+.text-telephone {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6)
 }
