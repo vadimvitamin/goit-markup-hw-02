@@ -50,7 +50,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--first-text-color)
+  color: #757575;
 }
 .header-link {
   font-family: 'Roboto';
@@ -85,10 +85,16 @@
 }
 .text-email-header{
 }
+.text-email {
+  color: rgba(255, 255, 255, 0.6);
+}
 .text-email:hover,
 .text-email:focus {
   color: #2196f3;
 
+}
+.text-telephone {
+  color: rgba(255, 255, 255, 0.6);
 }
 .text-telephone:hover,
 .text-telephone:focus{
