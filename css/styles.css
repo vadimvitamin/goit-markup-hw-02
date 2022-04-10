@@ -53,7 +53,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--first-text-color);
-  text-decoration: none;
 }
 .header-link:hover,
 .header-link:focus {
@@ -63,8 +62,7 @@
   text-decoration: none;
 }
 .list {
-  list-style: none;
-  text-decoration: none;
+  list-style-type: none;
 }
 
 .contacts {
@@ -120,7 +118,9 @@
 .buttons:hover {
   background-color: #1b1480;
 }
+.general-list{
 
+}
 .specifics-title {
   font-weight: 700;
   font-size: 14px;
@@ -128,11 +128,9 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-text-color);
-  list-style: none;
 }
 
 .specifics {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -145,7 +143,6 @@
 .workers {}
 
 .work-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -155,7 +152,6 @@
 }
 
 .specifics-title-team {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -164,14 +160,15 @@
 }
 
 .specifics-team {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
 }
+.specifics-progects {
 
+}
 .filters-button {}
 
 .filters {
@@ -188,8 +185,6 @@
   background-color: #2196f3;
   color: #ffffff;
 }
-
-.specifics-progects {}
 
 .page-footer {
   background-color: rgb(15, 18, 56);
