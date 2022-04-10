@@ -85,12 +85,15 @@
 }
 .text-email-header{
 }
-.text-email-header:hover,
-.text-email-header:focus {
+.text-email:hover,
+.text-email:focus {
   color: #2196f3;
 
 }
-.text-telephone-header{}
+.text-telephone:hover,
+.text-telephone:focus{
+  color: #2196f3;
+}
 
 .cap {
   background-color: #2F303A;
@@ -197,6 +200,18 @@
 .page-footer {
   background-color: rgb(15, 18, 56);
   color: var(--white-text-color);
+}
+.address {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.address:hover,
+.address:focus {
+color: #2196f3;
 }
 
 .text-address {
