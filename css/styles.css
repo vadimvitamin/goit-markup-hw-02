@@ -121,14 +121,13 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
 }
 
 .buttons:hover {
-  background-color: #1b1480;
+  background-color: #ffffff;
+  color: #212121;
 }
 .general-list{
-
 }
 .specifics-title {
   font-weight: 700;
@@ -175,8 +174,8 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-.specifics-progects {
 
+.specifics-progects {
 }
 .filters-button {
 }
