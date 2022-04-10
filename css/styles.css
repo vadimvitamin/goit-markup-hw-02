@@ -175,7 +175,8 @@
 .specifics-progects {
 
 }
-.filters-button {}
+.filters-button {
+}
 
 .filters {
   font-family: 'Roboto';
@@ -186,12 +187,14 @@
   letter-spacing: 0.03em
 }
 
-.filters :hover,
-.filters :focus {
+.filters {
+  background-color: #ffffff
+  var(--first-text-color)
+}
+.filters:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
-
 .page-footer {
   background-color: rgb(15, 18, 56);
   color: var(--white-text-color);
