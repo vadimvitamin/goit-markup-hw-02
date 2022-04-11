@@ -53,6 +53,9 @@
   letter-spacing: 0.02em;
   color: #757575;
 }
+.nav-list: {
+}
+
 .header-link {
   font-family: 'Roboto';
   font-weight: 500;
