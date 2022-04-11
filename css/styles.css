@@ -227,11 +227,19 @@ color: #2196f3;
 }
 
 .text-email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6)
 }
 
 .text-telephone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6)
 }
