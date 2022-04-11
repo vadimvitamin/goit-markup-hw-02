@@ -69,9 +69,13 @@
   text-decoration: none;
 }
 .list {
-  list-style-type: none;
+  list-style: none;
 }
+.tel {
 
+}
+.mailto {
+}
 .contacts {
   font-family: 'Roboto';
   font-weight: 500;
@@ -92,7 +96,6 @@
 .text-email:hover,
 .text-email:focus {
   color: #2196f3;
-
 }
 .text-telephone {
   color: rgba(255, 255, 255, 0.6);
@@ -130,10 +133,12 @@
   letter-spacing: 0.06em;
 }
 
-.buttons:hover {
+.buttons:hover
+.buttons:focus {
   background-color: #ffffff;
   color: #212121;
 }
+
 .general-list{
 }
 .specifics-title {
