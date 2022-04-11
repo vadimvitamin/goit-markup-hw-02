@@ -77,7 +77,9 @@
 .header-link:focus {
   color: #2196f3;
 }
-
+.header-link.current {
+  color: var(--blue-text-color);
+}
 
 /* .header-link:active {
   color: #2196f3;
